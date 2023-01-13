@@ -1,0 +1,89 @@
+:root {
+    --bpaars: #412BC6;
+    --heroimage: url("/assets/hero.svg");
+
+}
+
+/*h1 {
+    text-align:center !important;
+    font-size: 6.25rem;
+    margin-top: 0px;
+    max-width: 9ch;
+    font-weight: 300;
+    margin: auto;
+    font-family: Founders Grotesk, FoundersGrotesk-fallback, Arial, sans-serif;
+}*/
+
+h1 {
+    text-align:center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    max-width: 25ch;
+    font-weight: 300;
+    line-height: 50px;
+    margin: auto;
+}
+
+body {
+    background:var(--heroimage);
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.flashlight {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 200px 50px #6B655C;
+    pointer-events: none;
+    left: -100px;
+    top: -100px;
+  }
+  
+  .return-home {
+    color: black; 
+    background-color: white; 
+    border-radius: 25px; 
+    text-align: center; 
+    margin: auto;
+    height: 80px;
+    border-width: 0px!important;
+    padding: 0px 50px;
+    margin-top: 30px;
+    display: block;
+    text-decoration: none;
+  }
+
+  .home {
+    position: absolute, im !important;;
+    margin-top: 42px;
+    margin-left: 42px;
+    height: 48px;
+    width: 80px;
+  }
+
+  .menu {
+    position: absolute, im !important;;
+    float: right;
+    margin-top: 48px;
+    margin-right: 57px;
+    height: 33.33px;
+    width: 60px;
+  }
+  
+  .logo-image {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    display: block;
+    margin-top: -6px;
+  }
